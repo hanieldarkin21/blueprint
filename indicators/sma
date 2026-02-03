@@ -1,0 +1,7 @@
+this is placeholder for sma.
+
+should simply focus on its calculation. this goes for all inidcators. it relies on inidcator init for full comipliation and all other process
+
+all indcators must be easy to use so they always have function with exact same name as inidcator. for sma its one param of just the lookback. also there should be optional overload for first argument always for all inidcators on how to calculate (default is close. for example can do sma(high, 15). also for all iidcators can also put [] at the end to denote how many bars back youre talking. so sma(low, 14)[3] would get sma of the 14 period lows with last bar being the one 3 bars ago
+
+for all indicators we should strive for O(1) or at least logn
