@@ -1,0 +1,8 @@
+all strategies import strategy_init for all the needed stuff. no defintions needed, just orders
+
+these methods can be used but should be defined in init_strategy
+
+set_stop_loss(type, amount)   this sets a fixed stop loss. types include price, ticks (away from entry price), %, and currency . example: set_stop_loss(currency, 1000)   this would set stop loss of 1k dollats
+set_profit_target(type, amount) literally the mirro of set_profit_target
+set_max_positions(int positions) set max amount of positions anislute values (cause short is negative). a position + existing entry orders of same direction cant exceed max positions. 
+set_update_frequency (determines if strategy updates on each bar close, each price change, or each tick
