@@ -1,1 +1,2 @@
 this is generic script to prepare and compile and register all indicators in dthis should scan inidcators dir and for each inidcator get it readty. should be fully geneirc so i can easily handle adding more and more indicators
+should comiple everyrhing w numba
